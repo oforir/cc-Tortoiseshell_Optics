@@ -1,0 +1,13 @@
+
+/* Universal styles */
+
+html {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+/* General page styles */
+
+.container {
+  max-width: 960px;
+}
