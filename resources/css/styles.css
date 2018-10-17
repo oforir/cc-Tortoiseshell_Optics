@@ -74,3 +74,30 @@ body {
   display: flex;
   justify-content: flex-end;
 }
+
+/* USPs section styles */
+
+.USPs {
+  display: flex;
+  justify-content: center;
+}
+
+.USP {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+  width: 5rem;
+  height: 8rem;
+}
+
+.USP img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.USP img.exams {
+  width: 3.5rem;
+}
