@@ -76,20 +76,8 @@ body {
   justify-content: flex-end;
 }
 
-@media only screen and (max-width: 1024px) {
-  /* Media Query for tablet screen size */
-  .banner {
-    padding-top: 0;
-    height: 22rem;
-  }
 
-  .hero-text {
-    margin-right: 2rem;
-    margin-top: 5rem;
-    font-size: 1.33rem;
-    padding: 1rem 4rem;
-  }
-}
+
 
 /* USPs section styles */
 
@@ -155,4 +143,99 @@ footer {
 footer img {
   height: 1.5rem;
   padding-right: 1rem;
+}
+
+/* Media Query time! */
+
+@media only screen and (max-width: 1024px) {
+  /* Media Query for tablet screen size */
+  .banner {
+    padding-top: 0;
+    height: 22rem;
+  }
+
+  .hero-text {
+    margin-right: 2rem;
+    margin-top: 5rem;
+    font-size: 1.33rem;
+    padding: 1rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  /* Media Query for smartphone screen size */
+
+  .name {
+    display: none;
+  }
+
+  .banner {
+    padding-top: 0;
+    height: 17rem;
+    margin-bottom: 3.77rem;
+  }
+
+  .navs-large {
+    display: none;
+
+  }
+
+  .navs-small {
+    display: block;
+  }
+
+  .hero {
+    justify-content: center;
+  }
+
+  .hero-text {
+    margin-top: 9rem;
+    margin-right: 0;
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .USPs {
+    flex-wrap: wrap;
+  }
+
+  .USP {
+    margin-bottom: 0rem;
+    margin-top: 0;
+    font-size: 0.77rem;
+    padding-bottom: 1.54rem;
+    width: 100%;
+    height: 6rem; /* Why is the theight of these <divs> note included in the redline? */
+  }
+
+  .info {
+    margin-top: 2.23rem;
+    flex-wrap: wrap;
+  }
+
+  .info-block {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 4rem;
+    padding: 0;
+    font-size: 0.77rem;
+  }
+
+  .head-block {
+    width: 100%;
+    text-align: center;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  footer img {
+    margin: auto;
+  }
+
+  footer span {
+    display: none;
+  }
+
 }
