@@ -58,3 +58,19 @@ body {
 .navs-small {
   display: none;
 }
+
+.hero-text {
+  display: inline-block;
+  background-color: white;
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  font-size: 2rem;
+  margin-top: 10rem;
+  margin-right: -3rem; /* Q: By default this textblock seems to be offset vs de header by 1 rem, why is that? */
+}
+
+.hero {
+  display: flex;
+  justify-content: flex-end;
+}
