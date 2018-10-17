@@ -101,3 +101,29 @@ body {
 .USP img.exams {
   width: 3.5rem;
 }
+
+/* Info section styles */
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.info-block {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin-right: 5%;
+}
+
+.head-block {
+  width: 10rem;
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/* Info section styles */
