@@ -76,6 +76,21 @@ body {
   justify-content: flex-end;
 }
 
+@media only screen and (max-width: 1024px) {
+  /* Media Query for tablet screen size */
+  .banner {
+    padding-top: 0;
+    height: 22rem;
+  }
+
+  .hero-text {
+    margin-right: 2rem;
+    margin-top: 5rem;
+    font-size: 1.33rem;
+    padding: 1rem 4rem;
+  }
+}
+
 /* USPs section styles */
 
 .USPs {
