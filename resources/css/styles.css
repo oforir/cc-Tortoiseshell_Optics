@@ -32,13 +32,14 @@ body {
   display: flex;
   align-items: center;
   background-color: cadetblue;
-  padding: 1rem 0 1rem 2rem;
+  padding: 1rem 0;
   color: white;
 }
 
 .header img {
   height: 1.5rem;
   padding-right: 1rem;
+  padding-left: 2rem;
 }
 
 .header .logo {
@@ -67,7 +68,7 @@ body {
   line-height: 1.2;
   font-size: 2rem;
   margin-top: 10rem;
-  margin-right: -3rem; /* Q: By default this textblock seems to be offset vs de header by 1 rem, why is that? */
+  margin-right: -2rem;
 }
 
 .hero {
@@ -114,6 +115,7 @@ body {
   flex-direction: column;
   width: 35%;
   margin-right: 5%;
+  margin-bottom: 5rem;
 }
 
 .head-block {
@@ -126,4 +128,16 @@ body {
   margin-bottom: 1rem;
 }
 
-/* Info section styles */
+/* Footer styles */
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  padding: 4rem;
+}
+
+footer img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
